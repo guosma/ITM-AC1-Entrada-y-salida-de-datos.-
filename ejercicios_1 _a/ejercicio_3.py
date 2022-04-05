@@ -3,7 +3,7 @@
 a. Multiplicado por 5. 
 b. Dividido por 2. 
 """
-numero=int(input("ingrese un numero entero => "))
+numero = int(input("ingrese un numero entero => "))
 
 print(
     f"""El numero ingresado es : {numero}
