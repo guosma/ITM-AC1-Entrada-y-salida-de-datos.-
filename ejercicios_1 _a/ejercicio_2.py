@@ -8,11 +8,12 @@ nota3= int(input("ingrese la tercera nota => "))
 
 print((nota1+nota2+nota3)/3)"""
 
-#funcion que permite ingrsar 3 notas y te calcula el promedio
+#esta es una funcion que permite ingrsar 3 notas y te calcula el promedio
 def promedio(nota1,nota2,nota3):
     return (nota1+nota2+nota3)/3
-notas=[]
+notas=[] #creo una lista para guardar las notas 
 for i in range(3):
-    notas.append(int(input(f"ingrese la nota {i+1} =>")))
+    #Le pido que me pase las tres notas con un indice mostrando la nota
+    notas.append(int(input(f"ingrese la nota {i+1} =>"))) 
 
-print(promedio(*notas))
+print(promedio(*notas)) #imprimo la funcion con la lista como parametro
